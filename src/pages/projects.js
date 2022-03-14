@@ -1,13 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 //import Header from "./header";
 
-function Card({}) {
-
-    return(
-        <p> </p>
-    )
-}
-
 export default function Projects() {
 
         return(
@@ -18,7 +11,7 @@ export default function Projects() {
                   
                
                     <div className="project-title">
-                        <h4> VS Code extension for Segment Code Tracking : </h4>
+                        <h3> VS Code extension for Segment Code Tracking : </h3>
                     </div>
                     <div className="project-icons">
                         <a href="https://github.com/AzeemQ1596/Segement-Event-Tracking-VS-Code-Extension" className="fa-brands fa-github-square" target="_blank" rel="noopener noreferrer" aria-hidden="true"></a>
@@ -28,25 +21,40 @@ export default function Projects() {
                         <a href="https://docs.google.com/document/d/e/2PACX-1vRdt-suL7a206GDMYWYrmRglzGmCb8Pb7QS97Xoq7VTZ_uWTuQJCtNJFv0O7V1sqg/pub" className="fa-solid fa-file-pdf" target="_blank" rel="noopener noreferrer" aria-hidden="true"></a>
                     </div>
                     
-                        
-                    
-                    <p> Developed VS Code extension in TypeScript to improve developer experience of using Segment API. Implemented Agile Methodology. - Extension tracks users code by analyzing and extracting all Segment Calls using RegEx and stored in a JSON file along with attributes. - Code assistant feature created from JSON file allows user to quickly reuse previously called Segment Calls. - Created table from JSON file, viewed inside IDE and allows users to see all Segment Calls along with attributes (line number, file name, properties) and quickly locate them. Table made using jsGrid and supports dynamic theme switching between light, dark and high contrast - Uploaded the extension on Visual Studio Marketplace for developers to use. Created documentation for the extension.</p>
+                    <p>
+                    This is probably one of the most proud projects I've ever done (yet!). This project was done for our capstone project. The main idea of the project was to make a code tracking tool for developers who use the <a href="https://segment.com/" target="_blank" rel="noopener noreferrer" aria-hidden="true">Segment</a> API, a customer data platform. Segment is used by developers to see how their customers interact with their website. As their website grows bigger, more Segment API calls are added, which makes it harder to keep track of them, especially for developers.
+                    </p>
+                    <p>
+                    We use regular expressions (RegEx) to do a complex and smart search in the user's codebase for all Segment API calls, and collect them in present them in a table right inside the IDE! This table shows information like line number, file name and other meta data of the Segment call. From here, developers can double-click on the row which will open the document inside the IDE and highlight the line where this is present. Users can also sort, filter the rows in the table too. A cool feature of this table is that it has dynamic theme switching, that automatically switches between light, dark and high-contrast themes depending on the user's IDE theme for better visual clarity. 
+                    </p>
+
+                    <p>
+                        Another feature of the extension is to is that it allows users to reuse previously used API calls from the table. Overall this greatly improved the developer experiences and to remove some of the mundane and tedious tasks in using the Segment API.
+                    </p>
+                    <p>
+                        Now I know what you're all thinking: "But why not do a simple Cmd+f/Ctrl+f search to locate the Segment API calls??" Well, user's not only have to track these API calls, but also see at a glance where all the API calls are present and the types of present. And as mentioned earlier, as the website grows bigger, more API calls are needed, and it becomes harder to keep track of all the API calls.
+                    </p>
+
                 </div> 
                 <div className="project-col">
 
                 
                 <div className="project-title">
-                    <h4>Email Spam detection :</h4>
+                    <h3>Email Spam detection :</h3>
                 </div>
                     <div className="project-icons">
                         <a href="https://drive.google.com/drive/folders/1eesL1nH38q7w1w1vPQCvWTjO3q8UzLwe" className="fa-brands fa-google-drive" target="_blank" rel="noopener noreferrer" aria-hidden="true"></a>
 
                     </div>
-                    <p> Created a Machine Learning Model to detect spam emails using Python and machine learning libraries (TensorFlow, NumPy). - Preprocessed data to extract subject and body from raw .eml files to remove HTML tags, punctuations, and stop-words. - Implemented RNN model with LTSM layers for training the model. Model achieved 90% testing accuracy</p>
+                    <p> This was a machine learning project to classify between spam and ham emails (yes non-spam emails are called ham emails). I used Python and machine learning libraries like TensorFlow and Numpy. I used the <a href="https://github.com/erayon/Email-spam-filter-naive-bayes-classifier-scikit-learn-text-classification/tree/master/CSDMC2010_SPAM/CSDMC2010_SPAM">CSDMC2010 SPAM corpus </a> which contains 4327 training and 4292 testing data. </p>
+
+                    <p>
+                    The data required a lot of preprocessing before any training could be done, like removing all the HTML tags, subject tags, stop words and punctuation. Then finally I was able to implement a RNN (recurrent neural network) with LTSM layers to train the model. I was able to achieve 90% testing accuracy.
+                    </p>
                 </div> 
                 <div className="project-col">
                     <div className="project-title">
-                        <h4>QMIND :</h4>
+                        <h3> Highway Simulation with Smart Cruise Control Project</h3>
                     </div>
                     <div className="project-icons">
                         <a href="https://github.com/AzeemQ1596/Segement-Event-Tracking-VS-Code-Extension" className="fa-brands fa-github-square" target="_blank" rel="noopener noreferrer" aria-hidden="true"></a>
@@ -54,31 +62,33 @@ export default function Projects() {
                         <a href="https://docs.google.com/document/u/1/d/e/2PACX-1vSRIfL8E-hWJc_6h25ftNcjxLApuzo6VFaRyPEh7Zwp_9Z840Z2BxTQHsBjICVf4Btd8nEMP4u47o-W/pub" className="fa-solid fa-file-pdf" target="_blank" rel="noopener noreferrer" aria-hidden="true"></a>
                         
                     </div>    
-                    <p> Design Team Member at The Division of AI Research at QMIND, tasked to simulate an autonomous virtual driving environment. - Used Gazebo to simulate virtual 3D environments and used Python ROS2 libraries to control virtual robot in Linux OS. - Utilized LIDAR to detect other cars and utilized machine learning to facilitate in image recognition to identity lanes and curves. - Project was featured at an AI Conference (CUCAI) 2021. Research paper was selected in top 5 best papers.</p>
+                    <p> This was a project done with QMIND, my university's AI club. I was part of a team with a team leader. Our task was to simulate a virtual autonomous driving environment. Because of the COVID pandemic, our project was done in a virtual environment using Gazebo. This was also where I was introduced to Linux and using virtual machine. I first used Windows 10 VM feature before moving on to Oracle VM VirtualBox.</p>
+
+                    <p>
+                    We used ROS2, an open-source framework for robotics, inside Gazebo to implement and control a virtual Turtlebot. To get the Turtlebot to detect the road and lane we utilized the onboard camera sensor and fed the image to a machine learning model through various transformation. Then finally to detect other cars on the road we utilized the onboard LIDAR scan to detect objects in its vicinity. Combing these two techniques we were able to have the car drive around a virtual track and adjust its speed based on the curve of the road and other Turtlebots present.  
+                    </p>
+
+                    <p>
+                    Our project was featured at <a href="https://cucai.ca/">CUCAI</a>, an AI conference in 2021 and our research paper was selected in the <a href="https://www.linkedin.com/posts/qumind_proceedings-of-cucai-2021-activity-6794786756949532672-NJdQ/"> top 5 best papers! </a>
+                    </p>
                 </div> 
                 <div className="project-col">
                     
                     <div className="project-title">
-                        <h4>Waste Classification Machine Learning Model :</h4>
+                        <h3>Waste Classification Machine Learning Model :</h3>
                     </div>
                     <div className="project-icons">
                         <a href="https://colab.research.google.com/drive/1sryqiGgOCHYW8xwAsEBdNhMLRlaHgzBe?usp=sharing" className="fa-brands fa-google-drive" target="_blank" rel="noopener noreferrer" aria-hidden="true"></a>
 
                         <a href="https://docs.google.com/document/d/e/2PACX-1vQvbWkCRYYs3UFzJiz-52v4in-WZyoy7g3uSntzdmOHD1kiDtMytURCeSQ-Bd0i2tV-dzJMu_WfFPPW/pub" className="fa-solid fa-file-pdf" target="_blank" rel="noopener noreferrer" aria-hidden="true"></a>
                     </div>
-                    <p> Created a Machine Learning Model to classify images of recyclable and organic waste using Python, TensorFlow and NumPy. - Implemented CNN model with pooling layers for training the model and ADAM gradient optimizer. - Validated model to prevent overfitting and achieved 87% accuracy. Compiled the results in a report.</p>
-                </div> 
-                <div className="project-col">
+                    <p> This was a machine learning group project to classify images of recyclable and organic waste. This project was made using Python, TensorFlow and Numpy. We got our dataset from Kaggle, which contains 2513 images. From here we were able to do the necessary preprocessing steps, like resizing the images and converting the images to suitable to be read by our model.</p>
 
-                    <div className="project-title">
-                        <h4>Airline Database Application :</h4>
-                    </div>
-                    <div className="project-icons">
-                        <a href="https://www.youtube.com/watch?v=mfz-XRzAMr8" className="fa-brands fa-youtube" target="_blank" rel="noopener noreferrer" aria-hidden="true"></a>
-                    </div>
-                    <p>  Created and designed a web application project to access SQL database consisting of a mockup airline database. - Used PHP Data Objects for back-end logic to create queries to retrieves data from database. Used HTML and CSS for front end. - Web application implements displaying flight schedule, adding new flights, and updating data successfully. Demo video made.</p>
-                    
-                </div>
+                    <p>
+                    We implemented a convolutional neural network (which is best used for image classification) with pooling layers to train the model. We used the ADAM optimizer for gradient descent. Some steps to prevent overfitting was to random zoom and dropout layers. We achieved 87% accuracy on the testing data.
+                    </p>
+                </div> 
+               
                 </div>
         
             </div>

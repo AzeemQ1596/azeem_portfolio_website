@@ -25,7 +25,9 @@ body {
   line-height: 0.3;
   margin-left: 0.5em;
 }
-
+a {
+  color: #00a2ed;
+}
 .header-nav {
   margin: auto;
   float: right;
@@ -66,7 +68,6 @@ body {
   margin-right: auto;
   display: block;
   text-align: center;
-  
   justify-content: center;
   animation-name: slidingstep1;
   animation-duration: 0.5s;
@@ -98,12 +99,7 @@ body {
   
 }
 
-#azeem-intro img:hover {
-  opacity: 50%;
-  
-}
-
-#intro {
+.intro-col {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -111,10 +107,11 @@ body {
   line-height: 1.8;
   text-align: left;
   margin-top: 1rem;
-  padding: 1rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
   border-radius: 1rem;
   animation-name: slidingstep1;
-  animation-duration: 1s;
+  animation-duration: 0.3s;
   animation-iteration-count: 1;
   animation-direction: normal;
   animation-timing-function: linear;
@@ -156,18 +153,19 @@ body {
 
 .fa-brands, .fa-solid{
   
-  padding: 20px;
-  font-size: 30px;
+  padding: 1.5rem;
   text-decoration: none;
   border-radius: 50%;
   -webkit-transition: 0.2s ease-in-out;
   -moz-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
- 
+  padding: 1rem;
+  font-size: 2rem;
+  
 }
 
-.fa-linkedin-in {
+.fa-linkedin {
   background: #0a66c2;
   color: white;
   margin: 20px;
@@ -196,6 +194,7 @@ body {
   color: white;
   margin: 20px;
   float: left;
+
 }
 
 #projects {
@@ -205,15 +204,19 @@ body {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: stretch;
-  animation-name: slidingstep1;
   font-size: large;
   line-height: 1.5;
-  animation-duration: 1s;
+
+  animation-name: slidingstep1;
+  animation-duration: 0.3s;
   animation-iteration-count: 1;
   animation-direction: normal;
-  animation-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards; 
+  
+  
 }
+
 
 #projects h3 {
   text-align: center;
@@ -221,6 +224,7 @@ body {
   margin: auto;
   padding-bottom: 1em;
 }
+
 .project-col {
 
   font-size: medium;
@@ -232,7 +236,8 @@ body {
   background-color: #303235;
   padding: 1.5rem;
   border-radius: 1rem;
-  margin-top: 2rem; 
+  margin-top: 2rem;
+  
 }
 
 .project-icons {
@@ -240,13 +245,15 @@ body {
   justify-content:right;
   margin-left: auto;
 }
-#projects .fa-brands, .fa-solid{
+
+#projects .fa-brands, #projects .fa-solid{
   font-size: 20px;
   padding: 10px;
 }
 
 .project-icons .fa-github-square {
   background: #181a21;
+  font-size: large;
   color: white;
   margin: 20px;
   float: left;
@@ -339,7 +346,7 @@ body {
           #contact h2 {
             font-size: larger;
           }
-          #intro {
+          .intro-col {
             font-size: medium
           }
           #contact-info {
@@ -411,7 +418,7 @@ body {
               
           }
 
-          .fa:hover {
+          .fa-brands:hover, .fa-solid:hover {
             cursor:pointer;
             -webkit-transform: translateY(0px);
             -moz-transform: translateY(0px);

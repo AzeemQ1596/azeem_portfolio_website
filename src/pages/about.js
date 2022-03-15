@@ -19,7 +19,7 @@ export default function About()  {
                    
                     <div className="intro-col">
                         <h3> What I've learned through the years </h3> 
-                        <p>Over of my the years of my education, I have learned and improved my technical and interpersonal skills. I have taken many courses that have helped me in my technical skills, like understanding best code practices, like algorithms and data structures, debugging code, understanding different languages, using version control and repository  softwares like Github. and how to solve complex problems. I have also improved my interpersonal skills, like time management, researching, collaborating with team members, understanding and meeting requirements, and being an efficient learner. I believe this skills have prepared for this opportunity.</p>
+                        <p>Over of my the years of my education, I have learned and improved my technical and interpersonal skills. I have taken many courses that have helped me in my technical skills, like understanding best code practices, like algorithms and data structures, debugging code, understanding different languages, using version control and repository  softwares like Github. and how to solve complex problems. I have also improved my interpersonal skills, like time management, researching, collaborating with team members, understanding and meeting requirements, and being an efficient learner.</p>
                     </div>
                 
 

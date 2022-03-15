@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/azeem_portfolio_website/static/css/main.391ee208.css",
-    "main.js": "/azeem_portfolio_website/static/js/main.2658649a.js",
+    "main.js": "/azeem_portfolio_website/static/js/main.3b0da1ff.js",
     "static/js/787.993dcbd7.chunk.js": "/azeem_portfolio_website/static/js/787.993dcbd7.chunk.js",
     "static/media/azeem-smol.jpg": "/azeem_portfolio_website/static/media/azeem-smol.f089edd975d40c82626c.jpg",
     "index.html": "/azeem_portfolio_website/index.html",
     "main.391ee208.css.map": "/azeem_portfolio_website/static/css/main.391ee208.css.map",
-    "main.2658649a.js.map": "/azeem_portfolio_website/static/js/main.2658649a.js.map",
+    "main.3b0da1ff.js.map": "/azeem_portfolio_website/static/js/main.3b0da1ff.js.map",
     "787.993dcbd7.chunk.js.map": "/azeem_portfolio_website/static/js/787.993dcbd7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.391ee208.css",
-    "static/js/main.2658649a.js"
+    "static/js/main.3b0da1ff.js"
   ]
 }

@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './pages/header'
-import { Routes, Route} from 'react-router-dom';
-import About from './pages/about'
+import { Routes, Route, Router} from 'react-router-dom';
+import About from './pages/azeem_portfolio_website'
 import Contact from "./pages/contact";
 import Misc from "./pages/misc";
 import Projects from "./pages/projects";
@@ -11,13 +11,16 @@ function App() {
     
     <div>
       <Header/>
+   
       <Routes>
-        <Route path="" element={<About/>} />
-        <Route path="about" element={<About/>} />
-        <Route path="contact" element={<Contact/>} />
-        <Route path="projects" element={<Projects/>} />
+        
+          <Route exact path="/" element={<About/>} />
+          <Route exact path="/about" element={<About/>} />
+          <Route exact path="/contact" element={<Contact/>} />
+          <Route exact path="/projects" element={<Projects/>} />
         
       </Routes>
+     
     </div>
             
   );

@@ -9,7 +9,7 @@ export default function Home() {
                
                 <div className="home-col">
                        <h1> SYED AZEEM QUADRI </h1>
-                       <p> Welcome to my website <b>2.0</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                       
                 
                 <div id="contact-info">  
                     <h3> Contact </h3>    

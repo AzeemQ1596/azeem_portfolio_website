@@ -71,10 +71,7 @@ a {
   font-size: 1.75em;
   text-decoration: underline 0.09em rgba(255, 225, 255, 0);
 }
-.header-nav {
 
- 
-}
 .header-nav a:hover, .header-nav a:focus {
   color: gold;
   text-decoration: underline 0.09em rgba(255, 215, 0, 1);
@@ -109,7 +106,7 @@ a {
 
 .home-col {
   margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin-right: 2em;
 }
 
 #home h1 {
@@ -192,6 +189,7 @@ a {
   animation-direction: normal;
   animation-timing-function:cubic-bezier(.57,.21,.69,1.25) ;
   animation-fill-mode: forwards;
+  width: 100%;
 }
 
 .fa-brands, .fa-solid{

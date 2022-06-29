@@ -1,80 +1,366 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.25;
+  
 }
-
-body {
-  background-color: #202227;
+p {
   color: white;
 }
+body { 
 
-.App-header{
+  color: white;
+
+}
+#background {
+    
+    background-image: url('pages/images/SlithernAsh.jpg');
+    background-size: 100%;
+    z-index: -2;
+  }
+
+#background::after {
+  
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;   
+  background-color: rgba(0,0,0,0.6);
+  background-repeat: repeat-x;
+  animation-name:img-ani;
+  animation-duration: 0.8s;   
+  animation-timing-function: ease-in;
+ }
+
+@keyframes img-ani {
+  from{
+    background-color: black}
+    to{opacity: 1;}
+}
+
+.app-header {
   overflow: auto;
   padding: 20px 10px;
   
- 
-}
-
-.title {
-  float: left;
-  line-height: 0.3;
-  margin-left: 0.5em;
+  
 }
 a {
   color: #00a2ed;
 }
 .header-nav {
-  margin: auto;
-  float: right;
+
+  text-align: right;
   
 }
 
 .header-nav a {
   
-  float: left;
+  
   padding: 12px;
   line-height: 25px;
-  border-radius: 4px;
   color: white;
-  font-size: 20px;
-  text-decoration: none;
+  font-size: 1.75em;
+  text-decoration: underline 0.09em rgba(255, 225, 255, 0);
+}
+.header-nav {
+
+ 
+}
+.header-nav a:hover, .header-nav a:focus {
+  color: gold;
+  text-decoration: underline 0.09em rgba(255, 215, 0, 1);
+  animation: hoverLink 0.2s ease-out;
 }
 
-.header-nav a:hover {
-  color: #898a8b;
-  text-decoration: underline;
-  animation: hoverLink 0.2s ease-out
+.header-nav:active {
+  color: gold;
 }
 
 @keyframes hoverLink {
   from {
     color: white;
-    text-decoration: none;
+    text-decoration: underline 0.01em rgba(255, 225, 255, 0);
   }
   to {
-    color: #898a8b;
-    text-decoration:underline;
+    color: gold;
+    text-decoration: underline 0.09em rgba(255, 215, 0, 1);
+    
   }
 }
-#azeem-intro {
-  margin-top: 3em;
+
+#home {
+  font-size: xx-large;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.home-col {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+#home h1 {
+  
+  margin-top: auto;
+
+  animation-name: slideToRight;
+  animation-duration: 0.7s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function:cubic-bezier(.57,.21,.69,1.25) ;
+  animation-fill-mode: forwards;
+  width: 100%;
+}
+
+#home p {
+  animation-name: slideToRight;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: cubic-bezier(.57,.21,.69,1.25);
+  animation-fill-mode: forwards;
+  width: 100%;
+  font-size: x-large;
+}
+
+#home img{
+  
+  animation-name: slideToLeft;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: cubic-bezier(.03,.85,.64,1.07);
+  animation-fill-mode:forwards;
+  max-width: 23rem;
+}
+
+#home h3 {
+  margin-bottom: 0;
+}
+
+#azeem-image {
+  opacity: 1;
+  transition: 0.5s ease;
   border-radius: 50%;
+  
+}
+#azeem-overlay {
+
+  transition: .5s ease;
+  opacity: 0;
+  text-align: center;
+}
+
+#azeem-div:hover #azeem-overlay {
+  opacity: 1;
+}
+
+#credit-popup {
+  
+  font-size: large;
+  color: white;  
+}
+
+@keyframes hoverImage {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+    
+  }
+}
+
+#contact-info {
+  
+  animation-name: slideToRight;
+  animation-duration: 1.4s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function:cubic-bezier(.57,.21,.69,1.25) ;
+  animation-fill-mode: forwards;
+}
+
+.fa-brands, .fa-solid{
+  
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 50%;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  font-size: 2rem;
+  margin: 0px;
+  padding: 1rem;
+}
+
+.fa-linkedin {
+  background: #0a66c2;
+  color: white;
+  margin-right: 10px;
+  float: left;
+}
+
+.fa-github-square {
+  
+  background: #211f21;
+  color: white;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 1.1rem;
+}
+
+.fa-envelope {
+  background: #c54c14;
+  color: white;
+  margin-left: 10px;
+
+  float: left;
+}
+
+.fa-brands:hover, .fa-solid:hover {
+  cursor:pointer;
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
+}
+
+@keyframes slideToLeft {
+  
+  from {
+    opacity: 0%;
+    margin-left: 100%;
+  }
+  to {
+    opacity: 100%;
+    margin-left: 0%;
+  }
+}
+
+@keyframes slideToRight {
+
+  from {
+    opacity: 0%;
+    margin-left: -100%;
+}
+  to {
+    opacity: 100%;
+    margin-left: 0%;
+  }
+}
+
+#about-div {
+
   margin-left: auto;
   margin-right: auto;
   display: block;
   text-align: center;
-  justify-content: center;
-  animation-name: slidingstep1;
-  animation-duration: 0.5s;
+  justify-content: center; 
+}
+
+.about-col {
+  
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  margin-top: 0.5em;
+  margin-bottom: 2rem;
+}
+
+.about-col h1 {
+  font-size: 55px;
+  margin-bottom: 0em;
+  line-height: 1;
+  width: 100%;
+  opacity: 0%;
+}
+
+.about-col p {
+ 
+  line-height: 1.8;
+  width: 100%;
+  font-size: 1.05em;
+  opacity: 0%;
+  animation-name: slideToRight;
+}
+
+.about-col:nth-child(1) h1 {
+  margin-top: 0px;
+}
+
+.about-col:nth-child(1) h1, .about-col:nth-child(1) p {
+  animation-name: slideToRight;
+  animation-duration: 1s;
   animation-iteration-count: 1;
   animation-direction: normal;
-  animation-timing-function: ease-out;
+  animation-timing-function: cubic-bezier(.12,.72,.89,.99) ;
   animation-fill-mode: forwards;
+}
+
+.about-col:nth-child(2) h1, .about-col:nth-child(2) p {
+  animation-name: slideToRight;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: cubic-bezier(.12,.72,.89,.99) ;
+  animation-fill-mode: forwards;
+}
+
+.about-col:nth-child(3) h1, .about-col:nth-child(3) p {
+  animation-name: slideToRight;
+  animation-duration: 1s;
+  animation-delay: 0.7s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: cubic-bezier(.12,.72,.89,.99) ;
+  animation-fill-mode: forwards;
+}
+
+#queens-link {
+  color: #C0C0C0	;
+}
+
+#queens-link:hover {
+  color: gold;
+  text-decoration: underline;
+  animation: hoverLink 0.2s ease-out
+}
+
+.about-col img {
+  
+  float: right;
+ 
+  z-index: 2;
+  width: 30rem;
+  border-radius: 3.5rem;
+  padding-top: 1.5em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+
+  animation-name: slideToLeft;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: cubic-bezier(.03,.85,.64,1.07);
+  animation-fill-mode:forwards;
   
 }
 
@@ -93,355 +379,131 @@ a {
   }
 }
 
-#azeem-intro img{
-  border-radius: 50%;
-  max-width: 25%;
-  
-}
-
-.intro-col {
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: large;
-  line-height: 1.8;
-  text-align: left;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  padding: 2rem;
-  border-radius: 1rem;
-  animation-name: slidingstep1;
-  animation-duration: 0.3s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-  background-color: #303235;
-}
-
-#contact {
-
-  position: relative;
-  text-align: center;
-  top: 40%;
-  position: absolute;
-  align-items: center;
-  width: 100vw;
-  animation-name: slidingstep1;
-  animation-duration: 0.5s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-}
-#contact-info {
-  
-  display: flex;
-  justify-content: center;
-  top: 50%;
-  position: absolute;
-  align-items: center;
-  width: 100vw;
-  animation-name: slidingstep1;
-  animation-duration: 0.5s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-}
-
-
-.fa-brands, .fa-solid{
-  
-  padding: 1.5rem;
-  text-decoration: none;
-  border-radius: 50%;
-  -webkit-transition: 0.2s ease-in-out;
-  -moz-transition: 0.2s ease-in-out;
-  -o-transition: 0.2s ease-in-out;
-  transition: 0.2s ease-in-out;
-  padding: 1rem;
-  font-size: 2rem;
-  
-}
-
-.fa-linkedin {
-  background: #0a66c2;
-  color: white;
-  margin: 20px;
-  float: left;
-}
-
-.fa-brands:hover, .fa-solid:hover {
-  cursor:pointer;
-  -webkit-transform: translateY(-20px);
-  -moz-transform: translateY(-20px);
-  -o-transform: translateY(-20px);
-  -ms-transform: translateY(-20px);
-  transform: translateY(-20px);
-}
-
-.fa-github-square {
-  margin: 20px;
-  background: #181a21;
-  color: white;
-  float: left;
-  
-}
-
-.fa-envelope {
-  background: #c54c14;
-  color: white;
-  margin: 20px;
-  float: left;
-
-}
-
 #projects {
   
-  margin-top:3em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  font-size: large;
-  line-height: 1.5;
-
+  margin-left: auto;
+  margin-right: auto;
+  
+  
   animation-name: slidingstep1;
   animation-duration: 0.3s;
   animation-iteration-count: 1;
   animation-direction: normal;
   animation-timing-function: linear;
   animation-fill-mode: forwards; 
-  
-  
+}
+
+#projects h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+}
+.project-button {
+ 
+  color: white;
+  background-color: rgba(75, 75, 75, 0.6);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 
-#projects h3 {
-  text-align: center;
-  justify-content: center;
-  margin: auto;
-  padding-bottom: 1em;
+.project-links:nth-child(2) {
+  text-align: right;
 }
 
 .project-col {
+  
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+  text-align: left;
+  margin-top: 0.5em;
+  margin-bottom: 2rem;
 
-  font-size: medium;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 2%;
-  margin-right: 2%;
+}
+
+.project-col h1 {
+  font-size: xx-large;
+  margin-bottom: 0em;
+  line-height: 3;
+  margin-top: 0;
+}
+
+.project-col p {
+ 
   line-height: 1.8;
-  background-color: #303235;
-  padding: 1.5rem;
-  border-radius: 1rem;
-  margin-top: 2rem;
+  width: 100%;
+  font-size: 1.15em;
   
+} 
+
+.active, .project-button:hover {
+  background-color: #313131;
 }
 
-.project-icons {
+.project-section {
   
-  justify-content:right;
-  margin-left: auto;
+  overflow: hidden;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  transition: height ease 0.3s;
 }
 
-#projects .fa-brands, #projects .fa-solid{
-  font-size: 20px;
-  padding: 10px;
+.project-button .fa-brands, .project-button .fa-solid, .project-button .fa-file-pdf {
+  
+  font-size: 2rem;
+
 }
 
-.project-icons .fa-github-square {
+.project-button .fa-github-square {
   background: #181a21;
-  font-size: large;
+  font-size: 2.2rem;
   color: white;
   margin: 20px;
-  float: left;
+
 }
 
-.project-icons .fa-microsoft{
+.project-button .fa-microsoft{
   
   background: #00a2ed;
   color: white;
   margin: 20px;
-  float: left;
 }
 
-.project-icons .fa-file-pdf {
+.project-button .fa-file-pdf {
   background: white;
   color: crimson;
   margin: 20px;
-  float: left;
+  
 }
 
-.fa-google-drive {
+.project-button .fa-google-drive {
   background: white;
   color: green;
   margin: 20px;
-  float: left;
+
 }
 
 .fa-youtube {
   background: white;
   color: red;
   margin: 20px;
-  float: left;
+
 }
 
 .project-icons .fa-brands:hover, .project-icons .fa-solid:hover {
   cursor:pointer;
-  -webkit-transform: translateY(-5px);
-  -moz-transform: translateY(-5px);
-  -o-transform: translateY(-5px);
-  -ms-transform: translateY(-5px);
-  transform: translateY(-5px);
-}
-
-
-.project-col h4 {
-  justify-content: center;
-  text-align: center;
-  
-}
-
-#misc {
-  margin-left: 2%;
-  margin-right: 2%;
-  line-height: 2;
-  font-size: larger;
-  animation-name: slidingstep1;
-  animation-duration: 1.5s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-timing-function: cubic-bezier(0, 1, 0.5, 1);
-  animation-fill-mode: forwards;
-}
-
-@media screen and (max-width: 732px) {
-  
- 
-
-          .App-header a {
-            float: none;
-            display: block;
-            text-align: left;
-            line-height: 1;
-            border-bottom: solid;
-            border-bottom-color: #898a8b;
-            
-          }
-          .title{
-            float: none;
-          }
-          .header-nav {
-            float: none;
-          }
-          
-          #contact {
-            display: block;
-            position: absolute;
-
-            
-          }
-          #contact h2 {
-            font-size: larger;
-          }
-          .intro-col {
-            font-size: medium
-          }
-          #contact-info {
-            display: flex;
-            justify-content: center;
-            top: 50%;
-            position: absolute;
-            align-items: center;
-            width: 100vw;
-            margin-top: 1em;
-            }
-
-            #project {
-              display: block;
-              font-size: medium;
-            }
-          
-          .project-col {
-              display: flex;
-              flex-wrap: wrap;
-              
-              
-            }
-            .project-title {
-              margin-left: auto;
-              margin-right:auto;
-              margin-bottom:-1rem;
-            }
-            
-           
-          #projects {
-            
-          margin-top:3em;
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: flex-start;
-          align-items: stretch;
-          animation-name: slidingstep1;
-          font-size: large;
-          line-height: 1.5;
-          animation-duration: 1s;
-          animation-iteration-count: 1;
-          animation-direction: normal;
-          animation-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
-          animation-fill-mode: forwards;
-          }
-
-          #projects h3 {
-            text-align: center;
-            justify-content: center;
-            margin: auto;
-            padding-bottom: 1em;
-          }
-
-          #projects h4 {
-            
-            text-align: center;
-            
-          }
-          .project-icons {
-            
-            display: flex;
-            justify-content: center;
-            width: 100%;
-        
-          }
-          .project-icons .fa-brands, .project-icons .fa-solid {
-
-              
-          }
-
-          .fa-brands:hover, .fa-solid:hover {
-            cursor:pointer;
-            -webkit-transform: translateY(0px);
-            -moz-transform: translateY(0px);
-            -o-transform: translateY(0x);
-            -ms-transform: translateY(0px);
-            transform: translateY(0px);
-          }
-
-}
-
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  -webkit-transform: translateY(-2px);
+  -moz-transform: translateY(-2px);
+  -o-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  transform: translateY(-2px);
 }

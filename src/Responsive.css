@@ -1,0 +1,177 @@
+@media screen and (max-width: 822px) {
+  
+
+  .project-button {
+
+    
+   
+    display: block;
+    
+
+  }
+  .project-col h1 {
+    text-align: center;
+    
+  }
+
+  .project-links:nth-child(2) {
+    text-align: center;
+  
+  }
+  .project-links a{
+
+    text-align: center;
+  }
+
+  .project-para p {
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  
+
+  .nav-link {
+
+    text-align: left;
+  }
+
+  .header-nav a {
+    
+    display: block;
+    text-align: left;
+    justify-content: left;
+    
+  }
+  
+    #home {
+      display: flex;
+      flex-direction: column;
+      margin-top: 4%;
+      align-items: center;
+      justify-content: center;
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    #home h1 {
+      font-size: 2.5rem;
+      text-align: center;
+      }
+      
+    #home p {
+
+      font-size: 1.3rem;
+      text-align: center;
+      width: 100%;
+      }
+
+    #home img {
+      width: 100%;
+      }
+
+    #home h1, #home p, #home img, #contact-info{
+      animation-name: slidingstep1;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      animation-direction: normal;
+      animation-timing-function: ease-out;
+      animation-fill-mode: forwards;  
+      }
+
+    .home-col {
+
+      margin-left: 0.6em;
+      margin-right: 0.6em;
+    }
+    #contact-info {
+      
+      text-align: center;
+      justify-content: center;
+
+    }
+    .fa-brands, .fa-solid {
+      float:none;
+      justify-content: center;
+      margin-bottom: 1em;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+   
+
+    .fa-brands:active , .fa-solid:active, .fa-brands:hover , .fa-solid:hover {
+      opacity: 0.6;
+      }
+    .about-col {
+      font-size: medium;
+      margin-left: 4%;
+      margin-right: 4%;
+      }
+      .about-col h1 {
+        line-height: 1.1em;
+      }
+
+    #projects {
+      margin-top:3em;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: stretch;
+      font-size: large;
+      line-height: 1.5;
+
+      animation-name: slidingstep1;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      animation-direction: normal;
+      animation-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      animation-fill-mode: forwards;
+      }
+
+    #projects h2 {
+      font-size: x-large;
+    }
+    .project-col h1 {
+      font-size: 1.4rem;
+      text-align: center;
+      line-height: 1.5;
+    }
+    
+    .project-links {
+      text-align: center;
+      margin-left: 0;
+      margin-right: 0;
+    }
+ 
+    .project-para p {
+      font-size: large;
+    }
+
+    .project-button .fa-brands, .project-button .fa-solid, .project-button .fa-file-pdf {
+  
+      font-size: 1.8rem;
+      padding: 0.7rem;
+    }
+    
+    .project-button .fa-github-square {
+      
+      font-size: 1.7rem;
+      padding: 0.7rem;
+
+      background: #181a21;
+  
+      color: white;
+    
+      
+    }
+
+
+      .fa-brands:hover, .fa-solid:hover {
+      cursor:pointer;
+      -webkit-transform: translateY(0px);
+      -moz-transform: translateY(0px);
+      -o-transform: translateY(0x);
+      -ms-transform: translateY(0px);
+      transform: translateY(0px);
+      }        
+}

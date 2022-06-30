@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import img1 from './images/azeem-smol.jpg';
-//import img2 from './A.png';
+
 export default function Home() {
 
     return(
@@ -9,7 +9,8 @@ export default function Home() {
                
                 <div className="home-col">
                        <h1> SYED AZEEM QUADRI </h1>
-                       <p> Welcome to my website <b>2.0</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                       <p> Welcome to my website <b>2.0</b></p>
+                       <p>I'm a recent gradute in Computer Sciene and now I'm pursuing my passion in writing code </p>
                 
                 <div id="contact-info">  
                     <h3> Contact </h3>    
@@ -20,7 +21,7 @@ export default function Home() {
                
                 </div>
                       
-                    </div>
+                </div>
                     <div className="home-col">
                         
                         <div id="azeem-div">

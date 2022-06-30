@@ -1,5 +1,3 @@
-//import Header from "./header";
-//import queensu from './queens.jfif';
 import AboutCol from "./aboutCol";
 
 export default function About()  {
@@ -20,7 +18,7 @@ let about1_para = (
         <p> My name is Syed Azeem Quadri, but I usually go by Azeem. </p> 
                             
         <p>
-        In January 2022, I completed my degree in Computing and Information Science (Specialization in Mathematics) from <a id="queens-link"  target="_blank" rel="noopener noreferrer" href="https://www.queensu.ca/"> Queen's University, Ontario</a>, and now I'm pursuing my passion in writing code! I enjoy problem-solving, challenging myself and learning new things, which were some of the reasons I built this website! </p>
+        In April 2022, I completed my degree in Computing and Information Science (Specialization in Mathematics) from <a id="queens-link"  target="_blank" rel="noopener noreferrer" href="https://www.queensu.ca/"> Queen's University, Ontario</a>, and now I'm pursuing my passion in writing code! I enjoy problem-solving, challenging myself and learning new things, which were some of the reasons I built this website! </p>
 
         <p> This website also allows me to talk more about my experieneces more than what I can fit on my resume. 
         </p>

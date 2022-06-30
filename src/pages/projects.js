@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-//import Header from "./header";
 import ProjectCol from "./projectCol";
 
 export default function Projects() {

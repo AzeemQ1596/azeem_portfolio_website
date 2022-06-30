@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/azeem_portfolio_website/static/css/main.391ee208.css",
-    "main.js": "/azeem_portfolio_website/static/js/main.b84807bc.js",
+    "main.css": "/azeem_portfolio_website/static/css/main.a95cb7c1.css",
+    "main.js": "/azeem_portfolio_website/static/js/main.72e472d6.js",
     "static/js/787.993dcbd7.chunk.js": "/azeem_portfolio_website/static/js/787.993dcbd7.chunk.js",
-    "static/media/azeem-smol.jpg": "/azeem_portfolio_website/static/media/azeem-smol.f089edd975d40c82626c.jpg",
+    "static/media/azeem-smol.jpg": "/azeem_portfolio_website/static/media/azeem-smol.4d4dc42a3a8249c770ae.jpg",
+    "static/media/SlithernAsh.jpg": "/azeem_portfolio_website/static/media/SlithernAsh.934450d2d06691340fed.jpg",
     "index.html": "/azeem_portfolio_website/index.html",
-    "main.391ee208.css.map": "/azeem_portfolio_website/static/css/main.391ee208.css.map",
-    "main.b84807bc.js.map": "/azeem_portfolio_website/static/js/main.b84807bc.js.map",
+    "main.a95cb7c1.css.map": "/azeem_portfolio_website/static/css/main.a95cb7c1.css.map",
+    "main.72e472d6.js.map": "/azeem_portfolio_website/static/js/main.72e472d6.js.map",
     "787.993dcbd7.chunk.js.map": "/azeem_portfolio_website/static/js/787.993dcbd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.391ee208.css",
-    "static/js/main.b84807bc.js"
+    "static/css/main.a95cb7c1.css",
+    "static/js/main.72e472d6.js"
   ]
 }

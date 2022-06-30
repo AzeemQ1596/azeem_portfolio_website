@@ -1,5 +1,3 @@
-//import Header from "./header";
-//import queensu from './queens.jfif';
 import AboutCol from "./aboutCol";
 
 export default function About()  {

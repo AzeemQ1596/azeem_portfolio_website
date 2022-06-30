@@ -98,8 +98,8 @@ a {
   font-size: xx-large;
   display: flex;
   justify-content: space-between;
-  margin-top: 5%;
-  margin-bottom: 10%;
+  margin-top: 7%;
+  margin-bottom: 7%;
   margin-left: 2em;
   margin-right: 2em;
 }
@@ -123,6 +123,9 @@ a {
 }
 
 #home p {
+  
+  line-height: normal;
+  
   animation-name: slideToRight;
   animation-duration: 1s;
   animation-iteration-count: 1;

@@ -1,10 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.25;
   
 }
@@ -18,7 +18,7 @@ body {
 }
 #background {
     
-    background-image: url('pages/images/SlithernAsh.jpg');
+    background-image: url('pages/images/Ring It In.png');
     background-size: 100%;
     z-index: -2;
   }
@@ -34,7 +34,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;   
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.55);
   background-repeat: repeat-x;
   animation-name:img-ani;
   animation-duration: 0.8s;   
@@ -50,7 +50,8 @@ body {
 .app-header {
   overflow: auto;
   padding: 20px 10px;
-  
+  margin-top: 1%;
+  margin-right: 5%;
   
 }
 a {
@@ -59,22 +60,20 @@ a {
 .header-nav {
 
   text-align: right;
-  
 }
 
 .header-nav a {
-  
-  
+    
   padding: 12px;
   line-height: 25px;
   color: white;
   font-size: 1.75em;
-  text-decoration: underline 0.09em rgba(255, 225, 255, 0);
+  text-decoration: none;
 }
 
 .header-nav a:hover, .header-nav a:focus {
   color: gold;
-  text-decoration: underline 0.09em rgba(255, 215, 0, 1);
+  
   animation: hoverLink 0.2s ease-out;
 }
 
@@ -85,19 +84,17 @@ a {
 @keyframes hoverLink {
   from {
     color: white;
-    text-decoration: underline 0.01em rgba(255, 225, 255, 0);
+    
   }
   to {
     color: gold;
-    text-decoration: underline 0.09em rgba(255, 215, 0, 1);
-    
   }
 }
 
 #home {
   font-size: xx-large;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 7%;
   margin-bottom: 7%;
   margin-left: 2em;
@@ -144,7 +141,7 @@ a {
   animation-direction: normal;
   animation-timing-function: cubic-bezier(.03,.85,.64,1.07);
   animation-fill-mode:forwards;
-  max-width: 23rem;
+  max-width: 25rem;
 }
 
 #home h3 {
@@ -193,6 +190,7 @@ a {
   animation-timing-function:cubic-bezier(.57,.21,.69,1.25) ;
   animation-fill-mode: forwards;
   width: 100%;
+  margin-top: 2em;
 }
 
 .fa-brands, .fa-solid{
@@ -269,11 +267,13 @@ a {
 
 #about-div {
 
+ 
+  top: 50%;
   margin-left: auto;
   margin-right: auto;
   display: block;
   text-align: center;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .about-col {
@@ -295,9 +295,9 @@ a {
 
 .about-col p {
  
-  line-height: 1.8;
+  line-height: 2.2;
   width: 100%;
-  font-size: 1.05em;
+  font-size: 1.08em;
   opacity: 0%;
   animation-name: slideToRight;
 }
@@ -336,7 +336,8 @@ a {
 }
 
 #queens-link {
-  color: #C0C0C0	;
+  color:  gold;
+  text-decoration: none;
 }
 
 #queens-link:hover {
@@ -403,7 +404,7 @@ a {
 .project-button {
  
   color: white;
-  background-color: rgba(75, 75, 75, 0.6);
+  background-color: rgba(129, 129, 129, 0.473);
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -414,6 +415,7 @@ a {
   border-radius: 2rem;
   display: flex;
   justify-content: space-between;
+  height: 9em;
 }
 
 
@@ -447,7 +449,7 @@ a {
 } 
 
 .active, .project-button:hover {
-  background-color: #313131;
+  background-color: #313131; 
 }
 
 .project-section {

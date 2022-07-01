@@ -1,3 +1,12 @@
+@media screen and (max-width: 1220px){
+  
+  #home img{
+
+    max-width: 25rem;
+  }
+}
+
+
 @media screen and (max-width: 822px) {
   
 
@@ -31,6 +40,11 @@
 @media screen and (max-width: 950px) {
   
 
+  .app-header {
+    margin-left: 8%;
+  
+  }
+
   .nav-link {
 
     text-align: left;
@@ -41,7 +55,7 @@
     display: block;
     text-align: left;
     justify-content: left;
-    
+    width: max-content;
   }
   
     #home {
@@ -97,15 +111,14 @@
       margin-right: 10px;
       margin-left: 10px;
     }
-   
+
 
     .fa-brands:active , .fa-solid:active, .fa-brands:hover , .fa-solid:hover {
       opacity: 0.6;
       }
     .about-col {
       font-size: medium;
-      margin-left: 4%;
-      margin-right: 4%;
+      
       }
       .about-col h1 {
         line-height: 1.1em;
@@ -157,15 +170,10 @@
       
       font-size: 1.7rem;
       padding: 0.7rem;
-
       background: #181a21;
-  
       color: white;
-    
-      
+     
     }
-
-
       .fa-brands:hover, .fa-solid:hover {
       cursor:pointer;
       -webkit-transform: translateY(0px);

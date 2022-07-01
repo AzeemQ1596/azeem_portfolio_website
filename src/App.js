@@ -13,9 +13,9 @@ function App() {
       <div>
         <Header />
         <Routes>
-          <Route exact path='/' element={<Home/>} />
-          <Route exact path='/about' element={<About/>} />
-          <Route exact path='/projects' element={<Projects/>} />
+          <Route exact path='/azeem_portfolio_website/home' element={<Home/>} />
+          <Route exact path='/azeem_portfolio_website/about' element={<About/>} />
+          <Route exact path='/azeem_portfolio_website/projects' element={<Projects/>} />
         </Routes> 
       </div>
   );

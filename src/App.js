@@ -13,7 +13,8 @@ function App() {
       <div>
         <Header />
         <Routes>
-          <Route exact path='/azeem_portfolio_website/home' element={<Home/>} />
+          <Route index element={<Home/>} />
+          <Route exact path="/azeem_portfolio_website" element={<Home/>} />
           <Route exact path='/azeem_portfolio_website/about' element={<About/>} />
           <Route exact path='/azeem_portfolio_website/projects' element={<Projects/>} />
         </Routes> 

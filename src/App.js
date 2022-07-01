@@ -11,10 +11,9 @@ function App() {
   return (
 
       <div>
-        <Header/>
+        <Header />
         <Routes>
-          <Route index element={<Home/>} />
-          
+          <Route exact path='/' element={<Home/>} />
           <Route exact path='/about' element={<About/>} />
           <Route exact path='/projects' element={<Projects/>} />
         </Routes> 

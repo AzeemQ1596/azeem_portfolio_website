@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/azeem_portfolio_website/static/css/main.2f34d879.css",
-    "main.js": "/azeem_portfolio_website/static/js/main.5d4a3003.js",
+    "main.js": "/azeem_portfolio_website/static/js/main.4dcff13c.js",
     "static/js/787.993dcbd7.chunk.js": "/azeem_portfolio_website/static/js/787.993dcbd7.chunk.js",
     "static/media/azeem-smol.jpg": "/azeem_portfolio_website/static/media/azeem-smol.4d4dc42a3a8249c770ae.jpg",
     "static/media/Ring It In.png": "/azeem_portfolio_website/static/media/Ring It In.aa2ba9a1017112c08ffb.png",
     "index.html": "/azeem_portfolio_website/index.html",
     "main.2f34d879.css.map": "/azeem_portfolio_website/static/css/main.2f34d879.css.map",
-    "main.5d4a3003.js.map": "/azeem_portfolio_website/static/js/main.5d4a3003.js.map",
+    "main.4dcff13c.js.map": "/azeem_portfolio_website/static/js/main.4dcff13c.js.map",
     "787.993dcbd7.chunk.js.map": "/azeem_portfolio_website/static/js/787.993dcbd7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f34d879.css",
-    "static/js/main.5d4a3003.js"
+    "static/js/main.4dcff13c.js"
   ]
 }

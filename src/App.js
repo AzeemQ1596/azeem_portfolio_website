@@ -14,7 +14,7 @@ function App() {
         <Header/>
         <Routes>
           
-          <Route exact path='/' element={<Home/>} />
+          <Route exact path='/azeem_portfolio_website' element={<Home/>} />
           <Route exact path='/about' element={<About/>} />
           <Route exact path='/projects' element={<Projects/>} />
         </Routes> 

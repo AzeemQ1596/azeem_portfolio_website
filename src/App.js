@@ -13,10 +13,11 @@ function App() {
       <div>
         <Header />
         <Routes>
-          <Route index element={<Home/>} />
-          <Route exact path="/azeem_portfolio_website" element={<Home/>} />
-          <Route exact path='/azeem_portfolio_website/about' element={<About/>} />
-          <Route exact path='/azeem_portfolio_website/projects' element={<Projects/>} />
+            
+            <Route path="/azeem_portfolio_website" element={<Home/>} />
+            <Route path='/about' element={<About/>} />
+            <Route path='/projects' element={<Projects/>} />
+          
         </Routes> 
       </div>
   );

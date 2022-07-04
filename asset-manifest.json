@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/azeem_portfolio_website/home/static/css/main.1b434c95.css",
-    "main.js": "/azeem_portfolio_website/home/static/js/main.d48432aa.js",
-    "static/js/787.993dcbd7.chunk.js": "/azeem_portfolio_website/home/static/js/787.993dcbd7.chunk.js",
-    "static/media/The Multiverse.jpg": "/azeem_portfolio_website/home/static/media/The Multiverse.709012fc27c1df6f9a97.jpg",
-    "static/media/azeem-smol.jpg": "/azeem_portfolio_website/home/static/media/azeem-smol.4d4dc42a3a8249c770ae.jpg",
-    "index.html": "/azeem_portfolio_website/home/index.html",
-    "main.1b434c95.css.map": "/azeem_portfolio_website/home/static/css/main.1b434c95.css.map",
-    "main.d48432aa.js.map": "/azeem_portfolio_website/home/static/js/main.d48432aa.js.map",
-    "787.993dcbd7.chunk.js.map": "/azeem_portfolio_website/home/static/js/787.993dcbd7.chunk.js.map"
+    "main.css": "/azeem_portfolio_website/static/css/main.9cfc0aee.css",
+    "main.js": "/azeem_portfolio_website/static/js/main.4e587ff9.js",
+    "static/js/787.993dcbd7.chunk.js": "/azeem_portfolio_website/static/js/787.993dcbd7.chunk.js",
+    "static/media/The Multiverse.jpg": "/azeem_portfolio_website/static/media/The Multiverse.709012fc27c1df6f9a97.jpg",
+    "static/media/azeem-smol.jpg": "/azeem_portfolio_website/static/media/azeem-smol.4d4dc42a3a8249c770ae.jpg",
+    "index.html": "/azeem_portfolio_website/index.html",
+    "main.9cfc0aee.css.map": "/azeem_portfolio_website/static/css/main.9cfc0aee.css.map",
+    "main.4e587ff9.js.map": "/azeem_portfolio_website/static/js/main.4e587ff9.js.map",
+    "787.993dcbd7.chunk.js.map": "/azeem_portfolio_website/static/js/787.993dcbd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b434c95.css",
-    "static/js/main.d48432aa.js"
+    "static/css/main.9cfc0aee.css",
+    "static/js/main.4e587ff9.js"
   ]
 }

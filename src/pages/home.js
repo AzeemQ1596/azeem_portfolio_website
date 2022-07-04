@@ -9,33 +9,31 @@ export default function Home() {
                
                 <div className="home-col">
                        <h1> SYED AZEEM QUADRI </h1>
-                       <p> Welcome to my website <b>2.0</b></p>
-                       <p>I'm a recent gradute in Computer Sciene and now pursuing my passion in writing code </p>
+                       <p> Welcome to my website <b>2.0</b>!</p>
+                       <p>I'm a recent graduate in Computer Science and now pursuing my passion for writing code. I'm a self-motivated, dynamic and creative person. I like to constantly challenge myself and am always eager to learn new skills. My goal is to make a positive impact in any role I take.</p>
+                       
+                       <div id="contact-info">  
+                        <h3> Contact </h3>    
+                        <p> Feel free to connect with me via the following channels</p>
+                        <a href="https://www.linkedin.com/in/azeem-quadri/" className="fa-brands fa-linkedin" target="_blank" rel="noopener noreferrer" aria-hidden="true"></a>
+                        <a href="https://github.com/AzeemQ1596" className="fa-brands fa-github-square" target="_blank" rel="noopener noreferrer" aria-hidden="true" ></a>
+                        <a href="mailto:syedazeem.quadri@queensu.ca" className="fa-solid fa-envelope" target="_blank" rel="noopener noreferrer" aria-hidden="true" ></a>
                 
-                <div id="contact-info">  
-                    <h3> Contact </h3>    
-                    <p> Feel free to connect with me via the following channels</p>
-                    <a href="https://www.linkedin.com/in/azeem-quadri/" className="fa-brands fa-linkedin" target="_blank" rel="noopener noreferrer" aria-hidden="true"></a>
-                    <a href="https://github.com/AzeemQ1596" className="fa-brands fa-github-square" target="_blank" rel="noopener noreferrer" aria-hidden="true" ></a>
-                    <a href="mailto:syedazeem.quadri@queensu.ca" className="fa-solid fa-envelope" target="_blank" rel="noopener noreferrer" aria-hidden="true" ></a>
-               
-                </div>
-                      
-                </div>
-                    <div className="home-col">
-                        
-                        <div id="azeem-div">
-                                <img id="azeem-image" src={img1} alt="azeem"/>
-                                <div id="azeem-overlay">
-                                        <div id="credit-popup">Photo by <a href="https://www.instagram.com/_olivercao_/" target="_blank" rel="noreferrer" > Oliver Cao </a>
-                                        </div>
-                                
-                                </div>
-                        </div>
                     </div>
-                
-               
-         
+                </div>
+
+                <div className="home-col">
+                        
+                    <div id="azeem-div">
+                        <img id="azeem-image" src={img1} alt="azeem"/>
+                            <div id="azeem-overlay">
+                                <div id="credit-popup">
+                                    Photo by <a href="https://www.instagram.com/_olivercao_/" target="_blank" rel="noreferrer" > Oliver Cao </a>
+                                </div>  
+                            </div>
+                    </div>
+                </div>
+
             </div>
         )
 }
